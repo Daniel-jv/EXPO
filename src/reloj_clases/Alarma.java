@@ -3,12 +3,12 @@ package reloj_clases;
 public class Alarma {
     
     String nombre;
-    int hora;
+    String hour;
     String cancion;
 
-    public Alarma(String nombre, int hora, String cancion) {
+    public Alarma(String nombre, String hora, String cancion) {
         this.nombre = nombre;
-        this.hora = hora;
+        this.hour = hora;
         this.cancion = cancion;
     }
 
@@ -20,12 +20,12 @@ public class Alarma {
         this.nombre = nombre;
     }
 
-    public int getHora() {
-        return hora;
+    public String getHour() {
+        return hour;
     }
 
-    public void setHora(int hora) {
-        this.hora = hora;
+        public void setHour(String hora) {
+        this.hour = hora;
     }
 
     public String getCancion() {
