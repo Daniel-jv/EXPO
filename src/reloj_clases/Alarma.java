@@ -12,6 +12,13 @@ public class Alarma {
         this.cancion = cancion;
     }
 
+    @Override
+    public String toString() {
+        return "Nombre= " + nombre + ", Hora= " + hour + ", Cancion= " + cancion;
+    }
+
+    
+    
     public String getNombre() {
         return nombre;
     }
