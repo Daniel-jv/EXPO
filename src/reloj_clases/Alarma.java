@@ -14,7 +14,7 @@ public class Alarma {
 
     @Override
     public String toString() {
-        return "Nombre= " + nombre + ", Hora= " + hour + ", Cancion= " + cancion;
+        return "Nombre= " + nombre + ", Hora= " + hour + ", Cancion= " + cancion    ;
     }
 
     
